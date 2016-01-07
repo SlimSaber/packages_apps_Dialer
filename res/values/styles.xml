@@ -37,6 +37,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:overlapAnchor">true</item>
         <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
         <item name="activated_background">@drawable/list_item_activated_background</item>
         <item name="section_header_background">@drawable/list_title_holo</item>
         <item name="list_section_header_height">32dip</item>
@@ -234,6 +235,16 @@
         <item name="cardBackgroundColor">@color/background_dialer_call_log_list_item</item>
     </style>
 
+    <style name="CallLogSpinnerStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
     <style name="TextActionStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/call_log_action_height</item>
@@ -262,4 +273,16 @@
         <item name="android:background">@drawable/oval_ripple</item>
         <item name="android:padding">8dp</item>
     </style>
+
+    <style name="CallStatsBarStyle">
+        <item name="android:layout_height">4dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="backgroundColor">@color/call_stats_bar_background</item>
+        <item name="blueColor">@color/answered_incoming_call</item>
+        <item name="greenColor">@color/answered_outgoing_call</item>
+        <item name="redColor">@color/missed_call</item>
+    </style>
+
 </resources>

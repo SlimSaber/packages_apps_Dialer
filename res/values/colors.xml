@@ -105,4 +105,8 @@
     <color name="floating_action_button_touch_tint">#80ffffff</color>
 
     <color name="call_log_action_divider">#eeeeee</color>
+
+    <!-- Colors for incoming and outgoing calls in the call statistics -->
+    <color name="call_stats_bar_background">#88888888</color>
+
 </resources>
